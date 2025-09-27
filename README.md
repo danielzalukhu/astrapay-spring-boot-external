@@ -24,7 +24,7 @@ berdarkan ID dari yang terakhir.
 
 **Response**
     
-![Screenshot 2025-09-27 at 16.08.57.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_BKMgLM%2FScreenshot%202025-09-27%20at%2016.08.57.png)
+![Get All Notes](docs/images/get-all-notes.png)
 
 ### Create New Note
 * Endpoint  : **POST** - **/api/notes**
@@ -32,18 +32,18 @@ berdarkan ID dari yang terakhir.
 
 **Request**
 
-![Screenshot 2025-09-27 at 16.15.14.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_ZmDl8x%2FScreenshot%202025-09-27%20at%2016.15.14.png)
+![Request Body](docs/images/request-body.png)
 
 **Response (Sukses)**
 
-![Screenshot 2025-09-27 at 16.16.06.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_QlR019%2FScreenshot%202025-09-27%20at%2016.16.06.png)
+![Create New Note Success](docs/images/create-new-note.png)
 
 **Response (Validasi Error)**
 
-![Screenshot 2025-09-27 at 16.16.47.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_n0yhJ7%2FScreenshot%202025-09-27%20at%2016.16.47.png)
-![Screenshot 2025-09-27 at 16.16.29.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_EU7wkT%2FScreenshot%202025-09-27%20at%2016.16.29.png)
-![Screenshot 2025-09-27 at 16.26.20.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_peGB2h%2FScreenshot%202025-09-27%20at%2016.26.20.png)
-![Screenshot 2025-09-27 at 16.26.57.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_XusmNh%2FScreenshot%202025-09-27%20at%2016.26.57.png)
+![Create New Note 400](docs/images/create-new-note-title-error.png)
+![Create New Note 400](docs/images/create-new-note-content-error.png)
+![Create New Note 400](docs/images/create-new-note-title-max-error.png)
+![Create New Note 400](docs/images/create-new-note-content-max-error.png)
 
 ### Delete Note by Id
 * Endpoint  : **DELETE** - **/api/notes/{id}**
@@ -51,11 +51,11 @@ berdarkan ID dari yang terakhir.
 
 **Response (Sukses): 204 No Content**
 
-![Screenshot 2025-09-27 at 16.31.49.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_7w97oz%2FScreenshot%202025-09-27%20at%2016.31.49.png)
+![Delete Note by Id](docs/images/delete-note.png)
 
 **Response (Data tidak ditemukan): 404 Not Found**
 
-![Screenshot 2025-09-27 at 16.32.10.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fh6%2F366ffd5n6379c070fdn9l81m0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_uF3wg6%2FScreenshot%202025-09-27%20at%2016.32.10.png)
+![Delete Note by Id 404](docs/images/delete-not-not-found.png)
 
 ## ⚠️ Error Handling
 Semua error ditangani dengan Global Exception Handler (NoteAdvice):
