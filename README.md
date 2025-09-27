@@ -1,3 +1,8 @@
+# Angular Simple Note Application
+
+### Repository frontend dan dokumentasi bisa dilihat pada link berikut
+#### 🚀 Download here: https://github.com/danielzalukhu/astrapay-angular-my-notes-application
+
 # Spring Boot Astrapay My Simple Note Application
 Berikut adalah Simple Note Application untuk Spring Boot yang telah dilakukan pengembangan,
 sesuai dengan konvensi yang digunakan pada Astrapay.
